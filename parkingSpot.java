@@ -1,11 +1,10 @@
 
 public class parkingSpot {
 	String type;
-	String vehicle;
+	int ticket;
 	String spotNumber;
 	public parkingSpot(String type) {
-		this.spotNumber = spotNumber;
+		this.spotNumber = null;
 		this.type = type;
-		this.vehicle = vehicle;
 	}
 }

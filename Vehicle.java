@@ -2,10 +2,10 @@
 public class Vehicle {
 	String type;
 	String slotNumber;
-	String timer;
-	public Vehicle(String type, String slotNumber, String timer) {
+	int ticket;
+	public Vehicle(String type, String slotNumber, int ticket) {
 		this.slotNumber = slotNumber;
-		this.timer = timer;
+		this.ticket = ticket;
 		this.type = type;
 	}
 }
